@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/Yasmine/Testing/ITI/Test Automation/API_Testing/Trello_RestAssured/src/test/java">
+        <classes>
+            <class name="Board.CreateBoard">
+                <methods>
+                    <include name="TestCase1"/>
+                    <include name="Invalid_testCase2"/>
+                </methods>
+            </class>
+
+            <class name="Board.GetBoard">
+                <methods>
+                    <include name="TestCase6"/>
+                </methods>
+            </class>
+            <class name="List.CreateList">
+                <methods>
+                    <include name="TestCase3"/>
+                </methods>
+            </class>
+            <class name="List.GetList">
+                <methods>
+                    <include name="TestCase4"/>
+                </methods>
+            </class>
+            <class name="Card.CreateCard">
+                <methods>
+                    <include name="TestCase7"/>
+                </methods>
+            </class>
+            <class name="Card.GetCard">
+                <methods>
+                    <include name="TestCase8"/>
+                </methods>
+            </class>
+            <class name="Board.DeleteBoard">
+                <methods>
+                    <include name="TestCase5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
